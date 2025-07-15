@@ -1,6 +1,7 @@
 # intents/open_website.py
 from playwright.async_api import async_playwright
 from controller.intent_registry import intent
+import base64
 
 @intent("open_website")
 async def handle_open_website(entities):
@@ -13,6 +14,11 @@ async def handle_open_website(entities):
         page = await browser.new_page()
         await page.goto(url)
         await page.wait_for_timeout(5000)
-        await browser.close()
+        screenshot_bytes = await page.screenshot(type="png")
+        base64_image = base64.b64encode(screenshot_bytes).decode("utf-8")
 
-    return f"Opened website: {url}"
+
+    return {
+        "message": f"Opened website: {url}",
+        "screenshot": base64_image
+    }
