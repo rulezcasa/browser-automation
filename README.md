@@ -13,6 +13,10 @@ This repository is the codebase for a browser automation tool powered by Natural
 - Automates browser actions like clicking, typing, and navigation.
 - Google authentication for first-time login and consistent user context.
 
+## 📏 Architecture
+<img width="1200" height="1200" alt="browser_automation" src="https://github.com/user-attachments/assets/8a1ce11a-c0b8-4feb-a818-cdc7faf5a476" />
+
+
 
 ---
 
