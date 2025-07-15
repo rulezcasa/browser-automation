@@ -84,6 +84,16 @@ npm start
 ### Example functionality
 ![web_search](https://github.com/user-attachments/assets/faffe98e-423a-4a4b-865d-430f1d97f097)
 
+---
+
+## ⚠️ Challenges Faced
+
+- **Dynamic Rendering:** Used robust Playwright locators and wait conditions to handle changing DOM structures.  
+- **NLU Complexity:** Leveraged Google Gemini's contextual reasoning to better interpret varied and ambiguous commands.  
+- **Multi-turn Dialogues:** Implemented a stateful context manager to track and handle follow-up queries.  
+
+---
+
 
 
 ## 🧑‍💻 Authors
