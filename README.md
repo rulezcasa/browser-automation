@@ -81,6 +81,10 @@ npm start
 
 ---
 
+### Example functionality
+![web_search](https://github.com/user-attachments/assets/faffe98e-423a-4a4b-865d-430f1d97f097)
+
+
 
 ## 🧑‍💻 Authors
 - [@rulezcasa](https://gitlab.com/rulezcasa) - Maintainer & Developer
